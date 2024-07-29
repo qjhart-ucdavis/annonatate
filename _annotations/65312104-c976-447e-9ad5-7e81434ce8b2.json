@@ -1,0 +1,38 @@
+---
+canvas: "https://qjhart-ucdavis.github.io/annonatate/img/derivatives/iiif/jeepster/canvas/jeepster-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "New Seats, upholstered foam",
+            "purpose": "commenting",
+            "creator": {
+                "id": "qjhart-ucdavis",
+                "name": "qjhart-ucdavis"
+            },
+            "created": "2024-07-29T19:37:36.686Z",
+            "modified": "2024-07-29T19:37:50.906Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://qjhart-ucdavis.github.io/annonatate/img/derivatives/iiif/jeepster/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://qjhart-ucdavis.github.io/annonatate/img/derivatives/iiif/jeepster/canvas/jeepster-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=589.6331787109375,423.372802734375,1578.0355224609375,650.9822998046875"
+        }
+    },
+    "id": "65312104-c976-447e-9ad5-7e81434ce8b2.json",
+    "motivation": "commenting"
+}
